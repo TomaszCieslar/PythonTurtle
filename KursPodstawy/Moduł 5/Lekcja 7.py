@@ -1,0 +1,33 @@
+import turtle
+t= turtle.Turtle()
+t.hideturtle()
+
+t.color('orange','orange')
+t.begin_fill()
+t.circle(200)
+t.end_fill()
+
+t=turtle.Turtle('triangle')
+t.penup()
+t.goto(-70,130)
+t.right(90)
+t.color('white')
+t.shapesize(4)
+t.stamp()
+t.goto(-10,130)
+t.stamp()
+t.goto(50,130)
+t.stamp()
+t.goto(50,280)
+t.left(180)
+t.stamp()
+t.goto(-50,280)
+t.stamp()
+
+t=turtle.Turtle('square')
+t.color('black')
+t.penup()
+t.goto(0,400)
+t.shapesize(3,12)
+
+turtle.done()
