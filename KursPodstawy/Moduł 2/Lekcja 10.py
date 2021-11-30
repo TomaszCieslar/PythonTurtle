@@ -1,4 +1,4 @@
-from turtle import Turtle, fillcolor
+
 import turtle
 t = turtle.Turtle()
 t.hideturtle()
