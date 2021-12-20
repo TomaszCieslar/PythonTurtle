@@ -1,4 +1,7 @@
 import turtle
 t = turtle.Turtle()
-t.forward(200)
+t.forward(100)
+
+
 turtle.done()
+

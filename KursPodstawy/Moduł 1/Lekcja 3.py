@@ -1,8 +1,10 @@
-#rysowanie lini
 import turtle
-t= turtle.Turtle()
+t = turtle.Turtle()
+
+t.pensize(0)
+
+
 t.setheading(30)
-t.pensize(10)
 t.forward(200)
 
 turtle.done()
