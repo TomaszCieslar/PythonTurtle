@@ -1,8 +1,10 @@
 import turtle
+t = turtle.Turtle()
 
-t= turtle.Turtle()
 t.left(90)
-t.color("gold")
+t.color('gold')
 t.pensize(10)
 t.forward(200)
+
+
 turtle.done()
