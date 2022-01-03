@@ -1,6 +1,5 @@
 import turtle
 t = turtle.Turtle()
-t.hideturtle()
 
 #pierwszy
 t.left(120)
@@ -40,8 +39,4 @@ t.forward(200)
 t.left(120)
 t.forward(200)
 t.end_fill()
-
-
-
-
 turtle.done()
