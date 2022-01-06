@@ -1,5 +1,6 @@
 import turtle
 t = turtle.Turtle()
+
 t.pensize(10)
 t.left(55)
 t.color('gold','green')
