@@ -3,7 +3,7 @@ import turtle
 t=turtle.Turtle()
 t.speed(10)
 t.pensize(4)
-t.color('oliveDrab','green')
+t.color('oliveDrab','oliveDrab1')
 t.setposition(-50,0)
 
 

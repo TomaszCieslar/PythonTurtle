@@ -1,7 +1,6 @@
 import turtle
 t = turtle.Turtle('arrow')
 t.shapesize(5)
-t.speed('fastest')
 
 t.up()
 t.goto(60,-40)
