@@ -1,7 +1,9 @@
 import turtle
-
-t=turtle.Turtle()
+t = turtle.Turtle()
 t.hideturtle()
+t.speed(1)
+
+#sciany
 t.up()
 t.goto(0,-200)
 t.setheading(0)
@@ -18,7 +20,7 @@ t.fd(200)
 t.left(90)
 t.end_fill()
 
-
+#drzwi
 t.up()
 t.goto(50,-200)
 t.setheading(0)
@@ -35,6 +37,7 @@ t.fd(130)
 t.left(90)
 t.end_fill()
 
+#dach
 t.up()
 t.goto(0,0)
 t.setheading(0)
@@ -47,6 +50,5 @@ t.fd(180)
 t.left(120)
 t.fd(180)
 t.end_fill()
-
 
 turtle.done()
