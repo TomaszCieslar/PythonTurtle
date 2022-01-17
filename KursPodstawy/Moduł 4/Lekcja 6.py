@@ -1,8 +1,8 @@
 import turtle
 t = turtle.Turtle()
-t.hideturtle()
 
-t.color('grey','grey')
+t.hideturtle()
+t.color('gray','gray')
 t.up()
 t.goto(-50,200)
 t.down()
@@ -39,6 +39,5 @@ t.color('green','green')
 t.begin_fill()
 t.circle(50)
 t.end_fill()
-
 
 turtle.done()
