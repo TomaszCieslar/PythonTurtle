@@ -1,6 +1,8 @@
 import turtle
 t = turtle.Turtle('square')
 t.up()
+t.speed(1)
+
 t.color('blue')
 t.shapesize(4,0.5)
 t.stamp()
@@ -13,7 +15,7 @@ t.stamp()
 
 t.goto(100,50)
 t.color('gold')
-t.setheading(0)
+t.shapesize(4,0.5)
 t.stamp()
 t.right(45)
 t.stamp()
@@ -24,7 +26,7 @@ t.stamp()
 
 t.goto(-100,50)
 t.color('lightblue')
-t.setheading(0)
+t.shapesize(4,0.5)
 t.stamp()
 t.right(45)
 t.stamp()
@@ -35,7 +37,7 @@ t.stamp()
 
 t.goto(-100,-50)
 t.color('violet')
-t.setheading(0)
+t.shapesize(4,0.5)
 t.stamp()
 t.right(45)
 t.stamp()
@@ -46,7 +48,7 @@ t.stamp()
 
 t.goto(100,-50)
 t.color('green')
-t.setheading(0)
+t.shapesize(4,0.5)
 t.stamp()
 t.right(45)
 t.stamp()
@@ -54,7 +56,5 @@ t.right(45)
 t.stamp()
 t.right(45)
 t.stamp()
-
-
 
 turtle.done()
