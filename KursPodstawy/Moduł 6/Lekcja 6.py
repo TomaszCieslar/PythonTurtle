@@ -1,5 +1,7 @@
 import turtle
 t = turtle.Turtle()
+
+t.speed(1)
 t.hideturtle()
 t.pensize(5)
 t.color('gold')
