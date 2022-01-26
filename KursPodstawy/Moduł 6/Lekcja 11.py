@@ -1,8 +1,13 @@
 import turtle
 t = turtle.Turtle()
+
+#ustawienia
 t.hideturtle()
-t.color('lightgreen')
 t.pensize(5)
+t.color('lightgreen')
+t.speed(1)
+
+#program glowny
 
 t.begin_fill()
 for i in range(3):
@@ -29,5 +34,6 @@ for i in range(3):
     t.fd(150)
     t.left(120)
 t.end_fill()
+
 
 turtle.done()
